@@ -5,11 +5,13 @@ public class Main{
     {
         WordChecker w = new WordChecker();
         ArrayList<String> words = new ArrayList<String>();
-        words.add("an");
-        words.add("band");
-        words.add("band");
-        words.add("abandon");
+        words.add("to");
+        words.add("too");
+        words.add("stool");
+        words.add("tools");
         System.out.println(words);
         WordChecker x = new WordChecker(words);
+        System.out.println(x.isWordChain());
+        
     }
 }
