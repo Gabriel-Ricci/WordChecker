@@ -23,5 +23,17 @@ public class Main{
         WordChecker j = new WordChecker(skibidi);
         System.out.println(j.isWordChain());
         
+        ArrayList<String> fortnite = new ArrayList<String>();
+        fortnite.add("bobcat");
+        fortnite.add("catch");
+        fortnite.add("catchacat");
+        fortnite.add("at");
+        fortnite.add("cat");
+        System.out.println(fortnite);
+        WordChecker p = new WordChecker(fortnite);
+        System.out.println(p.isWordChain());
+        System.out.println(p.createList("cat"));
+        System.out.println(p.createList("catch"));
+        System.out.println(p.createList("dog"));
     }
 }
